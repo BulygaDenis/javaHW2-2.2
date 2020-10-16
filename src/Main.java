@@ -3,6 +3,6 @@ public class Main {
         BmiService service = new BmiService();
         double bmi = service.calculate (76,1.76);
 
-        System.out.println(bmi);
+        System.out.printf("%.2f",bmi);
     }
 }
